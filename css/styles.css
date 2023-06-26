@@ -1,241 +1,109 @@
-.page-header {
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
-}
-ul {
-    list-style-type: none;
-}
-.page-header .logo {
-  color: var(--navyblue, #2e2f42);
-  font-size: 18px;
-  font-family: Raleway;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: sans-serif;
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;
-}
-.page-header .navigation {
-  color: var(--navyblue, #2e2f42);
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: sans-serif;
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 24px;
-}
-.page-header .contacts {
-  color: var(--slate, #434455);
-  font-size: 16px;
-  font-family: Roboto;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  text-decoration: sans-serif;
-  position: absolute;
-  width: 153px;
-  height: 24px;
-  left: 940px;
-  top: 24px;
-}
-.page-header .contacts .link .link:hover .link:active {
-  color: var(--navyblue, #2e2f42);
-}
-.button {
-  position: absolute;
-  width: 586px;
-  height: 48px;
-  left: 427px;
-  top: 168px;
-}
-.first-button {
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 12px 24px;
-width: 69px;
-height: 48px;
-background: #404BBF;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
-}
-.second-button {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-width: 116px;
-height: 48px;
-background: #F4F4FD;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-}
-.third-button {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-width: 78px;
-height: 48px;
-background: #F4F4FD;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-}
-.forth-button {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-width: 101px;
-height: 48px;
-background: #F4F4FD;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-}
-.fifth-button {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 24px;
-width: 126px;
-height: 48px;
-background: #F4F4FD;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-}
-.first-section {
-  position: absolute;
-  width: 1128px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
-}
-.second-section {
-  position: absolute;
-  width: 1128px;
-  height: 420px;
-  left: 156px;
-  top: 756px;
-}
-.third-section {
-  position: absolute;
-  width: 1128px;
-  height: 420px;
-  left: 156px;
-  top: 1224px;
+:root {
+  --primarybrand: #4d5ae5;
+  --pressedstate: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtletext: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modaloverlay: #2e2f42;
+  --herobackground: #2e2f42;
+  --whitebackground: #ffffff;
+  --modalbackground: #fcfcfc;
 }
 
-.first-card {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
-.second-card {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  top: 288px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
-.third-card {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  top: 288px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+.logo .link {
+  text-decoration: none;
 }
-.forth-card {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 756px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+.logo .link. .span {
+  color: #2e2f42;
 }
-.fifth-card {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  top: 756px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+.list .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.sixth-card {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  top: 756px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+.list .link .link:hover .link:active {
+  color: #404bbf;
 }
-.seventh-card {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 156px;
-  top: 1224px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+.logo .list .link {
+  list-style-type: none;
 }
-.eigth-card {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 540px;
-  top: 1224px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+.address .list .link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-.ninth-card {
-  box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  left: 924px;
-  top: 1224px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+.address .list .link .link:hover .link:active {
+  color: #404bbf;
 }
-.footer {
-  position: absolute;
-  width: 1440px;
-  height: 312px;
-  left: 0px;
-  top: 1764px;
-  background: #2e2f42;
+.list {
+  list-style: none;
+}
+.section {
+  background-color: #2e2f42;
+}
+.section .hidden-headline {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.firt-button .second-button .third-button .forth-button .fifth-button {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4d5ae5;
+background-color: #f4f4fd;
+}
+.firt-button .second-button .third-button .forth-button .fifth-button .link:active .link:hover {
+  color: #404bbf;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.link .headline {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.link .text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.link {
+  text-decoration: none;
+}
+.footer .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
