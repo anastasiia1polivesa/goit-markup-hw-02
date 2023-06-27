@@ -58,6 +58,11 @@ link {
 .header-address {
   font-style: normal;
 }
+
+.header-address-item link {
+  color: var(--textcolor);
+}
+
 .header-address-list {
   list-style: none;
   font-size: 16px;
@@ -66,9 +71,6 @@ link {
   color: var(--textcolor);
 }
 
-.header-address-item link {
-  color: var(--textcolor);
-}
 .header-address-link:hover,
 .header-address-link:focus {
   color: #404bbf;
