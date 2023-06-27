@@ -2,6 +2,7 @@
   --maincolor: #4d5ae5;
   --accentcolor: #2e2f42;
   --textcolor: #434455;
+  --secondbackgoundcolor: #E5E5E5;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -9,7 +10,7 @@ body {
   background-color: #ffffff;
 }
 
-.link {
+link {
   text-decoration: none;
 }
 
@@ -18,9 +19,10 @@ body {
 }
 
 /* HEADER */
-.header-navigation {
+.header-navigation .list {
+  list-style: none;
 }
-.header-logo-link {
+.header-logo-link link {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -32,7 +34,7 @@ body {
   list-style-type: none;
 }
 span {
-  color: #f4f4fd;
+  color: var(--accentcolor);
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -58,7 +60,7 @@ span {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--textcolor);
 }
 
 .header-address-item {
@@ -102,16 +104,6 @@ span {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
@@ -132,7 +124,7 @@ span {
 
 /* section 3 */
 
-.do-section {
+.do-section .list {
 }
 .do-section-title {
   font-size: 36px;
@@ -148,7 +140,7 @@ span {
 
 /* section 4 */
 
-.team-section {
+.team-section .list {
   background-color: #f4f4fd;
 }
 .team-section-title {
@@ -194,23 +186,13 @@ span {
 
 /* section */
 
-.section {
-  background-color: #E5E5E5;
+.section-portfolio {
+  background-color: var(--secondbackgoundcolor);
 }
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.button-list {
+.button .list {
   list-style: none;
 }
 .button-look {
@@ -229,11 +211,12 @@ span {
   color: #FFFFFF;
   background-color: #404BBF;
 }
-.work-list {
+.work .list {
   list-style: none; 
   text-decoration: none;
 }
-.link {
+.img .link {
+  text-decoration: none;
 }
   
 .portfolio-headline {
