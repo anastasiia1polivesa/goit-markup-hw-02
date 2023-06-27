@@ -12,10 +12,11 @@ body {
 
 
 /* HEADER */
-.header-navigation .list {
+.nav .list {
   list-style: none;
 }
-.header-logo-link link {
+.header-logo,
+.header-logo-accent {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -26,14 +27,14 @@ body {
   text-decoration: none;
   list-style-type: none;
 }
+.header-logo-accent, span {
+  color: #f4f4fd;
+}
 
 link {
   text-decoration: none;
 }
 
-span {
-  color: var(--accentcolor);
-}
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #404bbf;
@@ -137,7 +138,7 @@ span {
   text-transform: capitalize;
   color: var(--accentcolor);
 }
-.do-section-list {
+.do-section .list {
   list-style: none;
 }
 
@@ -151,8 +152,12 @@ span {
   text-transform: capitalize;
   color: var(--accentcolor);
 }
-.team-section .list {
+.team-section, .list {
   list-style: none;
+  background-color: #FFFFFF ;
+}
+
+.team-section4, .list {
   background-color: #F4F4FD;
 }
 .headline {
@@ -189,11 +194,17 @@ span {
 .section-portfolio {
   background-color: var(--secondbackgoundcolor);
 }
+
+.portfolio link {
+  text-decoration: none;
+  list-style-type: none; 
+}
 .visually-hidden {
   overflow: hidden;
 }
-.button .list {
-  list-style: none;
+.button .list,
+.button-look {
+  list-style-type: none;
 }
 .button-look {
   font-family: "Roboto", sans-serif;
@@ -212,7 +223,7 @@ span {
   background-color: #404BBF;
 }
 .work .list {
-  list-style: none; 
+  list-style-type: none; 
   text-decoration: none;
 }
 .img .link {
@@ -233,24 +244,4 @@ span {
   color: #434455;  
 }
 
-/* portfolio footer */
 
-.header-logo-link link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--maincolor);
-  text-decoration: none;
-  list-style-type: none;
-}
-
-link {
-  text-decoration: none;
-}
-
-span {
-  color: #f4f4fd;
-}
