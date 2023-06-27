@@ -28,7 +28,7 @@ body {
   list-style-type: none;
 }
 .header-logo-accent, span {
-  color: #f4f4fd;
+  color: var(--accentcolor);
 }
 
 link {
@@ -66,7 +66,7 @@ link {
   color: var(--textcolor);
 }
 
-.header-address-item {
+.header-address-item link {
   color: var(--textcolor);
 }
 .header-address-link:hover,
@@ -152,12 +152,12 @@ link {
   text-transform: capitalize;
   color: var(--accentcolor);
 }
-.team-section, .list {
+.team-section4, .team-section, .list {
   list-style: none;
   background-color: #FFFFFF ;
 }
 
-.team-section4, .list {
+.team-section4 {
   background-color: #F4F4FD;
 }
 .headline {
@@ -244,4 +244,20 @@ link {
   color: #434455;  
 }
 
+/* footer */
 
+.footer-logo,
+.footer-logo-accent {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--maincolor);
+  text-decoration: none;
+  list-style-type: none;
+}
+.footer-logo-accent, span {
+  color: #f4f4fd;
+}
