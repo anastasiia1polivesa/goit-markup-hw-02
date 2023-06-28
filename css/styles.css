@@ -57,11 +57,10 @@ link {
 
 .header-address link {
   font-style: normal;
-  color: var(--textcolor); 
-  text-decoration: none;
+  color: var(--textcolor);  
 }
 
-.header-address-item link, link {
+.header-address-item link, .list {
   color: var(--textcolor);
 }
 
@@ -158,11 +157,11 @@ link {
 }
 .team-section, .list {
   list-style: none;
-  background-color: #F4F4FD; 
+  background-color: #FFFFFF; 
 }
 
 .team-section4 {
-  background-color: #FFFFFF;
+  background-color: #F4F4FD;
 }
 .headline {
   font-weight: 500;
@@ -211,11 +210,11 @@ link {
 .nav-button .list {
   list-style: none;
 }
-.button .list,
+.button-list .list,
 .button-look {
   list-style-type: none;
 }
-.nav-button, .button-look {
+.button-list, .button-look {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -226,7 +225,7 @@ link {
   cursor: pointer;
 }
 
-.button-look:hover,
+.button-list, .button-look:hover,
 .button-look:focus{
   color: #FFFFFF;
   background-color: #404BBF;
