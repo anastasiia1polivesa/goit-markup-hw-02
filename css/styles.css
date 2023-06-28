@@ -59,9 +59,10 @@ link {
   font-style: normal;
   color: var(--textcolor); 
 }
-.header-address link {
+.header-address-link link link{
   font-style: normal;
   color: var(--textcolor);  
+  text-decoration: none;
 }
 
 .header-address-item link, .list {
