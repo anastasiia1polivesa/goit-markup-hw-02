@@ -69,7 +69,7 @@ link {
   color: var(--textcolor);
 }
 
-.header-address-list {
+.header-address-link link link {
   list-style: none;
   font-size: 16px;
   line-height: 1.5;
@@ -166,7 +166,7 @@ link {
   background-color: #F4F4FD; 
 }
 
-.team-section4 .list {
+.team-section-photo .list {
   background-color: #FFFFFF;
   list-style: none;
 }
@@ -205,6 +205,10 @@ link {
   background-color: var(--secondbackgoundcolor);
 }
 
+.header-address-link link link {
+ color: var(--textcolor);
+  text-decoration: none;
+}
 
 .portfolio link {
   text-decoration: none;
@@ -217,7 +221,7 @@ link {
 .button-list .list {
   list-style: none;
 }
-.button-list .list,
+.button-list, .list,
 .button-look {
   list-style-type: none;
 }
