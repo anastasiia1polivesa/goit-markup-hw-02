@@ -160,16 +160,14 @@ link {
   color: var(--accentcolor);
 }
 
-.team-section{
+.team-section {
+  list-style: none;
   background-color: #F4F4FD; 
 }
-.team-section, .list {
-  list-style: none;
-  background-color: #FFFFFF; 
-}
 
-.team-section4 {
-  background-color: #F4F4FD;
+.team-section4 .list {
+  background-color: #FFFFFF;
+  list-style: none;
 }
 .headline {
   font-weight: 500;
