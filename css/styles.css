@@ -55,6 +55,10 @@ link {
   text-decoration: none;
 }
 
+.header-address {
+  font-style: normal;
+  color: var(--textcolor); 
+}
 .header-address link {
   font-style: normal;
   color: var(--textcolor);  
@@ -155,6 +159,10 @@ link {
   text-transform: capitalize;
   color: var(--accentcolor);
 }
+
+.team-section{
+  background-color: #F4F4FD; 
+}
 .team-section, .list {
   list-style: none;
   background-color: #FFFFFF; 
@@ -207,7 +215,7 @@ link {
   overflow: hidden;
 }
 
-.nav-button .list {
+.button-list .list {
   list-style: none;
 }
 .button-list .list,
@@ -225,7 +233,7 @@ link {
   cursor: pointer;
 }
 
-.button-list, .button-look:hover,
+.button-look:hover,
 .button-look:focus{
   color: #FFFFFF;
   background-color: #404BBF;
